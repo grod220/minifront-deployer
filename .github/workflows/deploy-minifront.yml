@@ -51,7 +51,7 @@ jobs:
           version: 'latest'
 
       - name: Clone Penumbra Web repo
-        run: git clone https://github.com/penumbra-zone/web
+        run: git clone -b reenable-spend-max https://github.com/penumbra-zone/web
 
       - name: Install dependencies
         run: pnpm install
